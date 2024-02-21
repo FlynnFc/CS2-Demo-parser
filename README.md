@@ -1,6 +1,6 @@
 # CS2-Demo-parser
 
-Takes a folder of CS2 demos and creates a spreadsheet with stats
+Takes a folder of CS2 demos and creates a spreadsheet with detailed stats
 
 Credit:
 Demo file parsing - https://github.com/markus-wa/demoinfocs-golang
