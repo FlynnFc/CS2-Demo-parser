@@ -19,13 +19,13 @@ Demo file parsing - https://github.com/markus-wa/demoinfocs-golang
 1. Clone the repository to your local machine:
 
    ```sh
-   git clone https://github.com/FlynnFc/imageCompressor.git
+   git clone https://github.com/FlynnFc/CS2-Demo-parser.git
    ```
 
 2. Navigate to the cloned directory:
 
    ```sh
-   cd go-image-processing
+   cd CS2-Demo-parser
    ```
 
 3. Build the project:
