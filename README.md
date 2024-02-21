@@ -47,13 +47,13 @@ Please enter the path of the demo folder:  C:\Users\user\demos
 ## Example output
 
 ### Basic Information and Performance
-| ID                | Name          | Team Name      | Matches | Rounds | Kills | Assists | Deaths | Damage | ADR  |
-|-------------------|---------------|----------------|---------|--------|-------|---------|--------|--------|------|
-| 76561198016577250 | TAVARES       | team_androxZ-  | 1       | 20     | 14    | 0       | 18     | 1797   | 89   |
-| 76561198857416779 | sneppyyyyyyy  | team_androxZ-  | 1       | 20     | 22    | 0       | 10     | 1926   | 96   |
-| 76561199004526824 | Ourob         | Shaman         | 1       | 36     | 20    | 0       | 24     | 2244   | 62   |
-| 76561199082282831 | JJaredd       | Shaman         | 1       | 36     | 27    | 0       | 21     | 2981   | 82   |
-| 76561198157156096 | dell-w        | TYREECESIMPSON | 2       | 53     | 42    | 0       | 33     | 3982   | 75   |
+| ID                | Name          | Team Name      | Matches | Rounds | Kills | Assists | Deaths | Damage | ADR  | KAST%
+|-------------------|---------------|----------------|---------|--------|-------|---------|--------|--------|------|------|
+| 76561198016577250 | TAVARES       | team_androxZ-  | 1       | 20     | 14    | 0       | 18     | 1797   | 89   | 75   |
+| 76561198857416779 | sneppyyyyyyy  | team_androxZ-  | 1       | 20     | 22    | 0       | 10     | 1926   | 96   | 88   |
+| 76561199004526824 | Ourob         | Shaman         | 1       | 36     | 20    | 0       | 24     | 2244   | 62   | 60   |
+| 76561199082282831 | JJaredd       | Shaman         | 1       | 36     | 27    | 0       | 21     | 2981   | 82   | 90   |
+| 76561198157156096 | dell-w        | TYREECESIMPSON | 2       | 53     | 42    | 0       | 33     | 3982   | 75   | 75   |
 
 
 ### All other columns
