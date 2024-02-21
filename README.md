@@ -64,10 +64,10 @@ Please enter the path of the demo folder:  C:\Users\user\demos
 | CT Traded Kills | CT Failed Trades | CT Traded Deaths | T Trade Kills | T Failed Trades | T Traded Deaths |
 |------------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 
-| 1v1 Attempts | 1v1 Wins | 1v2 Attempts | 1v2 Wins | 1v3 Attempts | 1v3 Wins | 1v4 Attempts | 1v4 Wins | 1v5 Attempts | 1v5 Wins |
-|--------------|----------|--------------|----------|--------------|----------|--------------|----------|--------------|----------|
+| 1v1 Attempts | 1v1 Wins | 1v2 Attempts | 1v2 Wins | 1v3 Attempts |
+|--------------|----------|--------------|----------|--------------|
 
-
-
+| 1v3 Wins | 1v4 Attempts | 1v4 Wins | 1v5 Attempts | 1v5 Wins |
+|----------|--------------|----------|--------------|----------|
 
 
