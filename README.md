@@ -28,10 +28,10 @@ Demo file parsing - https://github.com/markus-wa/demoinfocs-golang
    cd CS2-Demo-parser
    ```
 
-3. Build the project:
+3. Run the project:
 
    ```sh
-   go build
+   go run main
    ```
 
 ## Usage
