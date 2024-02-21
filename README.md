@@ -41,5 +41,5 @@ Run the program from the command line. You will be prompted for a folder path. e
 ### Example
 
 ```sh
-Please enter the path of the demo folder:  C:\\Users\\user\\demos
+Please enter the path of the demo folder:  C:\Users\user\demos
 ```
