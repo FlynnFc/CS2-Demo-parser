@@ -43,3 +43,31 @@ Run the program from the command line. You will be prompted for a folder path. e
 ```sh
 Please enter the path of the demo folder:  C:\Users\user\demos
 ```
+
+## Example output
+
+### Basic Information and Performance
+| ID                | Name          | Team Name      | Matches | Rounds | Kills | Assists | Deaths | Damage | ADR  |
+|-------------------|---------------|----------------|---------|--------|-------|---------|--------|--------|------|
+| 76561198016577250 | TAVARES       | team_androxZ-  | 1       | 20     | 14    | 0       | 18     | 1797   | 89   |
+| 76561198857416779 | sneppyyyyyyy  | team_androxZ-  | 1       | 20     | 22    | 0       | 10     | 1926   | 96   |
+| 76561199004526824 | Ourob         | Shaman         | 1       | 36     | 20    | 0       | 24     | 2244   | 62   |
+| 76561199082282831 | JJaredd       | Shaman         | 1       | 36     | 27    | 0       | 21     | 2981   | 82   |
+| 76561198157156096 | dell-w        | TYREECESIMPSON | 2       | 53     | 42    | 0       | 33     | 3982   | 75   |
+
+
+### All other columns
+
+| Total Entry Attempts | CT Entry Kills | CT Entry Deaths | T Entry Kills | T Entry Deaths |
+|----------------------|----------------|-----------------|---------------|----------------|
+
+| CT Traded Kills | CT Failed Trades | CT Traded Deaths | T Trade Kills | T Failed Trades | T Traded Deaths |
+|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+
+| 1v1 Attempts | 1v1 Wins | 1v2 Attempts | 1v2 Wins | 1v3 Attempts | 1v3 Wins | 1v4 Attempts | 1v4 Wins | 1v5 Attempts | 1v5 Wins |
+|--------------|----------|--------------|----------|--------------|----------|--------------|----------|--------------|----------|
+
+
+
+
+
