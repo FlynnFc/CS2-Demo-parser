@@ -278,7 +278,7 @@ func demoParsing(path string) ([]PlayerStats, error) {
 						Damage:        stats.Damage,
 						DetailedStats: oldPlayer.DetailedStats,
 						RoundEvent:    oldPlayer.RoundEvent,
-						KAST:          int8(KAST),
+						KASTRounds:    KAST,
 					}
 
 					// Copy oldPlayer's DetailedStats
@@ -688,7 +688,6 @@ func currentRoundIdx(target int, haystack []RoundEvent) int {
 }
 
 func playerKASTCalc(player PlayerStats) int {
-	rounds := player.DetailedStats.TRounds + player.DetailedStats.CTRounds
 	KASTRounds := 0
 	for _, round := range player.RoundEvent {
 		if round.Kills > 0 || round.Assists > 0 || !round.Died || round.TradeKills > 0 {
@@ -696,11 +695,7 @@ func playerKASTCalc(player PlayerStats) int {
 		}
 	}
 
-	if KASTRounds == 0 {
-		return -1
-	}
-	fullKAST := float64(KASTRounds) / float64(rounds)
-	return int(fullKAST * 100)
+	return KASTRounds
 }
 
 func findPlayer(target uint64, game demoinfocs.GameState) *common.Player {

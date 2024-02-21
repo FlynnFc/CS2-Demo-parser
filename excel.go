@@ -75,7 +75,7 @@ func excelExporter(allPlayers []PlayerStats) {
 		row.AddCell().SetInt(player.Deaths)
 		row.AddCell().SetInt(player.Damage)
 		row.AddCell().SetInt(player.Damage / player.Rounds)
-		row.AddCell().SetInt(int(player.KAST))
+		row.AddCell().SetInt(player.Rounds / player.Rounds)
 		row.AddCell().SetFloat(player.MischiefRating)
 		row.AddCell().SetInt(player.DetailedStats.CTRounds)
 		row.AddCell().SetInt(player.DetailedStats.TRounds)

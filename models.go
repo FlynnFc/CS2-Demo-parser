@@ -17,7 +17,7 @@ type PlayerStats struct {
 	Assists        int     `json:"assists"`
 	Deaths         int     `json:"deaths"`
 	Damage         int     `json:"damage"`
-	KAST           int8    `json:"KAST"`
+	KASTRounds     int     `json:"KAST"`
 	MischiefRating float64 `json:"mischiefRating"`
 	DetailedStats  DetailedPlayerStats
 	RoundEvent     []RoundEvent `json:"roundEvent"`

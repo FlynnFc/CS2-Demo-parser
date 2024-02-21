@@ -11,7 +11,7 @@ func combineStats(stats []PlayerStats) []PlayerStats {
 			existing.Kills += stats.Kills
 			existing.Deaths += stats.Deaths
 			existing.Damage += stats.Damage
-
+			existing.KASTRounds += stats.KASTRounds
 			// Merge DetailedStats
 			existing.DetailedStats.CTRounds += stats.DetailedStats.CTRounds
 			existing.DetailedStats.TRounds += stats.DetailedStats.TRounds
@@ -23,7 +23,7 @@ func combineStats(stats []PlayerStats) []PlayerStats {
 			existing.DetailedStats.BombStats.BombDefuseAttempts += stats.DetailedStats.BombStats.BombDefuseAttempts
 			existing.DetailedStats.BombStats.BombPlantAttempts += stats.DetailedStats.BombStats.BombPlantAttempts
 
-			// Merge KillStats
+			//Merge KillStats
 			existing.DetailedStats.KillStats.Wallbangs += stats.DetailedStats.KillStats.Wallbangs
 			existing.DetailedStats.KillStats.Headshots += stats.DetailedStats.KillStats.Headshots
 			existing.DetailedStats.KillStats.Blind += stats.DetailedStats.KillStats.Blind
@@ -31,21 +31,19 @@ func combineStats(stats []PlayerStats) []PlayerStats {
 			existing.DetailedStats.KillStats.ThroughSmoke += stats.DetailedStats.KillStats.ThroughSmoke
 			existing.DetailedStats.KillStats.AirborneKills += stats.DetailedStats.KillStats.AirborneKills
 
-			// Merge Entry stats
-			existing.DetailedStats.KillStats.Entry.CTEntryDeaths += stats.DetailedStats.KillStats.Entry.CTEntryDeaths
-			existing.DetailedStats.KillStats.Entry.CTEntryKills += stats.DetailedStats.KillStats.Entry.CTEntryKills
-			existing.DetailedStats.KillStats.Entry.TEntryDeaths += stats.DetailedStats.KillStats.Entry.TEntryDeaths
-			existing.DetailedStats.KillStats.Entry.TEntryKills += stats.DetailedStats.KillStats.Entry.TEntryKills
+			// Merge EntryStats
 			existing.DetailedStats.KillStats.Entry.TotalAttempts += stats.DetailedStats.KillStats.Entry.TotalAttempts
+			existing.DetailedStats.KillStats.Entry.CTEntryKills += stats.DetailedStats.KillStats.Entry.CTEntryKills
+			existing.DetailedStats.KillStats.Entry.CTEntryDeaths += stats.DetailedStats.KillStats.Entry.CTEntryDeaths
+			existing.DetailedStats.KillStats.Entry.TEntryKills += stats.DetailedStats.KillStats.Entry.TEntryKills
+			existing.DetailedStats.KillStats.Entry.TEntryDeaths += stats.DetailedStats.KillStats.Entry.TEntryDeaths
 
-			// Trade Stats
-			existing.DetailedStats.KillStats.TradeStats.CTFailedTrades += stats.DetailedStats.KillStats.TradeStats.CTFailedTrades
-			existing.DetailedStats.KillStats.TradeStats.CTTradeKills += stats.DetailedStats.KillStats.TradeStats.CTTradeKills
-			existing.DetailedStats.KillStats.TradeStats.CTTradedDeaths += stats.DetailedStats.KillStats.TradeStats.CTTradedDeaths
-			existing.DetailedStats.KillStats.TradeStats.TFailedTrades += stats.DetailedStats.KillStats.TradeStats.TFailedTrades
-			existing.DetailedStats.KillStats.TradeStats.TTradeKills += stats.DetailedStats.KillStats.TradeStats.TTradeKills
-			existing.DetailedStats.KillStats.TradeStats.TTradedDeaths += stats.DetailedStats.KillStats.TradeStats.TTradedDeaths
+			// Merge TradeStats
 			existing.DetailedStats.KillStats.TradeStats.TotalAttempts += stats.DetailedStats.KillStats.TradeStats.TotalAttempts
+			existing.DetailedStats.KillStats.TradeStats.CTTradeKills += stats.DetailedStats.KillStats.TradeStats.CTTradeKills
+			existing.DetailedStats.KillStats.TradeStats.CTFailedTrades += stats.DetailedStats.KillStats.TradeStats.CTFailedTrades
+			existing.DetailedStats.KillStats.TradeStats.TTradeKills += stats.DetailedStats.KillStats.TradeStats.TTradeKills
+			existing.DetailedStats.KillStats.TradeStats.TFailedTrades += stats.DetailedStats.KillStats.TradeStats.TFailedTrades
 
 			// Merge ClutchStats slice
 			existing.DetailedStats.ClutchStats = append(existing.DetailedStats.ClutchStats, stats.DetailedStats.ClutchStats...)
