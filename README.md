@@ -1,5 +1,5 @@
 # CS2-Demo-parser
-HIII!
+
 Takes a folder of CS2 demos and creates a spreadsheet with detailed stats
 
 Credit:
